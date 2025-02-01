@@ -16,7 +16,7 @@ sudo apt install jq or brew install jq
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Crt.sh-Domain-Extractor.git
+   https://github.com/ashique-thaha/Crt.sh.git
    cd Crt.sh
    ```
    
