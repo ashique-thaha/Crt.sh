@@ -7,6 +7,13 @@ A Bash script to extract unique subdomains from crt.sh JSON output.
 
 Only JSON format will work
 
+Dependency:
+
+```bash
+sudo apt install jq or brew install jq
+```
+
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Crt.sh-Domain-Extractor.git
