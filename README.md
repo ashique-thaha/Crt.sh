@@ -5,6 +5,8 @@ A Bash script to extract unique subdomains from crt.sh JSON output.
 
 ## Usage
 
+Only JSON format will work
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Crt.sh-Domain-Extractor.git
