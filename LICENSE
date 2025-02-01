@@ -19,3 +19,35 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+### Step 4: Make the Script Executable Without `./`
+To run the script as `Crt.sh` (without `./`), you need to ensure it’s in your system’s `PATH`. Here’s how:
+
+1. **Move the Script to a Directory in Your `PATH`**:
+   - For example, move it to `/usr/local/bin`:
+     ```bash
+     sudo mv Crt.sh /usr/local/bin/
+     ```
+   - Now you can run it from anywhere:
+     ```bash
+     Crt.sh input.json output.txt -v
+     ```
+
+2. **Alternatively, Add the Repository Directory to Your `PATH`**:
+   - Add the following line to your `~/.bashrc` or `~/.zshrc` file:
+     ```bash
+     export PATH="$PATH:/path/to/Crt.sh-Domain-Extractor"
+     ```
+   - Reload your shell:
+     ```bash
+     source ~/.bashrc
+     ```
+
+---
+
+### Step 5: Commit and Push to GitHub
+1. **Stage the Files**:
+   ```bash
+   git add Crt.sh README.md
